@@ -34,4 +34,5 @@ export default defineConfig({
       deny: ["**/.*"],
     },
   },
+  base: "/gestao-de-estoque/", // Novo nome do repositório
 });
