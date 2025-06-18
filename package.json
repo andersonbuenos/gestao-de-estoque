@@ -1,8 +1,10 @@
 {
-  "name": "rest-express",
+  "name": "stock-manager-educational",
   "version": "1.0.0",
-  "type": "module",
+  "description": "Um sistema de gerenciamento de estoque para fins educacionais",
+  "author": "Anderson Buenos",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "cross-env NODE_ENV=development tsx server/index.ts",
     "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
